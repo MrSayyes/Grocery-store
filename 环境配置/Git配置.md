@@ -1,6 +1,7 @@
 **1、git工具下载**
 
 链接：https://gitforwindows.org/
+
 **2、一路默认安装，安装完成后在桌面右击启动git bash**
 
 ![image](https://user-images.githubusercontent.com/19297162/68990366-3f156880-088d-11ea-9134-4468e6356a2a.png)
