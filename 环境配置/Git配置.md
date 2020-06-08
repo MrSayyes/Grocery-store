@@ -53,3 +53,16 @@ git config --global i18n.logoutputencoding utf-8  # 输出 log 编码
 set fileencoding=gb18030 
 
 set fileencodings=utf-8,gb18030,utf-16,big5
+
+**10、git访问加速配置**
+
+1）在https://www.ipaddress.com/ 上面搜索github.global.ssl.fastly.net和github.com和assets-cdn.github.com，找到对应的ip，然后配置hosts文件：
+
+199.232.69.194 github.global.ssl.fastly.net
+140.82.114.4 github.com
+185.199.108.153 assets-cdn.github.com
+185.199.109.153 assets-cdn.github.com
+185.199.110.153 assets-cdn.github.com
+185.199.111.153 assets-cdn.github.com
+
+2）Winodws系统的做法：打开CMD，输入`ipconfig /flushdns`
