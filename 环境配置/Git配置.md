@@ -14,7 +14,7 @@ $ git config --global user.email "your_email@example.com"
 ```
 **4、生成ssh公钥**
 
-在git bash操作界面执行 ssh-keygen -t ras，一直回车即可
+在git bash操作界面执行 ssh-keygen -t rsa，一直回车即可
 
 **5、通过git bash操作去c盘个人目录下面找到.ssh文件夹，里面有如下两个文件**
 
